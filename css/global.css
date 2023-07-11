@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2? family= New+Rocker & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--title-font-family);
+}
+:root {
+    --title-font-family: 'New Rocker', cursive;
+}
+h1 {
+    border-color: black;
+    border: 1px solid black;
+}
