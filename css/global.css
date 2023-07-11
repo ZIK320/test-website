@@ -3,12 +3,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--title-font-family);
 }
+
+img {
+    display: block;
+    width: 100%;
+}
+
 :root {
+    --main-text-color: black;
+    --accent-color: #ebd5b3;
+    --button-background-color: #ebd5b3;
+    --button-border-color: black;
     --title-font-family: 'New Rocker', cursive;
-}
-h1 {
-    border-color: black;
-    border: 1px solid black;
+    --font-family: 'New Rocker', cursive;
 }

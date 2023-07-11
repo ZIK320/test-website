@@ -1,0 +1,36 @@
+header {
+    padding: 5px;
+    background-color: var(--accent-color);
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-menu .menu_item {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.header-menu .menu_item {
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+
+    .header-menu {
+        display: flex;
+    }
+
+    .header-menu {
+        flex-direction: row;
+    }
+    
+}
