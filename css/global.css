@@ -1,20 +1,26 @@
-@import url('https://fonts.googleapis.com/css2? family= New+Rocker & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=New+Rocker&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --main-text-color: black;
+    --accent-color: rgb(235, 223, 207);
+    --button-background-color: white;
+    --button-border-color: black;
+    font-family: 'New Rocker', cursive;
+    color: var(--main-text-color);
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+
 img {
     display: block;
     width: 100%;
-}
-
-:root {
-    --main-text-color: black;
-    --accent-color: #ebd5b3;
-    --button-background-color: #ebd5b3;
-    --button-border-color: black;
-    --title-font-family: 'New Rocker', cursive;
-    --font-family: 'New Rocker', cursive;
 }

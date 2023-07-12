@@ -1,36 +1,41 @@
-header {
+.header {
     padding: 5px;
     background-color: var(--accent-color);
-
 }
 
-h1 {
+.header__title,
+.header__logo {
     font-size: 3.5rem;
+    font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
 }
 
-.header-menu {
+.header__logo {
+    background-image: url("img/.header-logo-background.jpg");
+  }
+
+.header__menu {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.header-menu .menu_item {
+.header__menu .menu__item {
     color: var(--main-text-color);
     text-decoration: none;
 }
 
-.header-menu .menu_item {
+.header__menu .menu__item:hover {
     text-decoration: underline;
 }
 
 @media (min-width: 500px) {
 
-    .header-menu {
+    .header__menu {
         display: flex;
-    }
-
-    .header-menu {
+        align-items: center;
+        flex: 1;
         flex-direction: row;
+        justify-content: space-around;
     }
-    
 }
